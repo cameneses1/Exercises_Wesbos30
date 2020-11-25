@@ -1,13 +1,14 @@
 html {
     font-size: 10px;
-    background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
+    background: url('https://i.redd.it/a6s6bx8gu3p41.jpg') bottom center;
     background-size: cover;
   }
   
   body,html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    
   }
   
   .keys {
@@ -19,12 +20,12 @@ html {
   }
   
   .key {
-    border: .4rem solid black;
+    border: .6rem solid black;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: all .07s ease;
+    transition: all .1s ease;
     width: 10rem;
     text-align: center;
     color: white;
@@ -33,19 +34,20 @@ html {
   }
   
   .playing {
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    transform: scale(1.2);
+    border-color: #ff0000;
+    box-shadow: 0 0 1rem #ff0000;
   }
   
   kbd {
     display: block;
     font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #ff0000;
   }
